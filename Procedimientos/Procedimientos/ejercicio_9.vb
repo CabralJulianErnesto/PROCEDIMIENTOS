@@ -43,12 +43,4 @@
         Return (base + base_ / 2) * h
     End Function
 
-    Private Function opcionSalir(n As Single) As Boolean
-        If n = 0 Then
-            Return False
-        Else
-            Return True
-        End If
-    End Function
-
 End Module
